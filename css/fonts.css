@@ -1,0 +1,28 @@
+@font-face {
+	font-family: Belinda-Regular;
+	src: url(../fonts/Belinda-Regular.ttf) format("truetype");
+}
+@font-face {
+	font-family: OpenSans;
+	src: url(../fonts/OpenSans.ttf) format("truetype");
+}
+@font-face {
+	font-family: OpenSans-Semibold;
+	src: url(../fonts/OpenSans-Semibold.ttf) format("truetype");
+}
+@font-face {
+	font-family: UbuntuRegular;
+	src: url(../fonts/UbuntuRegular.ttf) format("truetype");
+}
+@font-face {
+	font-family: UbuntuBold;
+	src: url(../fonts/UbuntuBold.ttf) format("truetype");
+}
+@font-face {
+	font-family: PTSansRegular;
+	src: url(../fonts/PTSansRegular.ttf) format("truetype");
+}
+@font-face {
+	font-family: PTSansBold;
+	src: url(../fonts/PTSansBold.ttf) format("truetype");
+}

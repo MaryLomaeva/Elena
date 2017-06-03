@@ -1,0 +1,79 @@
+.body {
+	background: #d6d6d7;
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+.header {
+	background: url(../img/bg_head.png) no-repeat top center;
+	background-size: 100%;
+	color: #fff;
+	padding-top: 65px;
+	padding-bottom: 120px;
+	text-align: center;
+}
+.header__logo {
+	margin-bottom: 45px;
+	cursor: pointer;
+}
+.header__navigation {
+	margin-bottom: 80px;
+}
+.header__navigation-items {
+	
+	text-transform: uppercase;
+	margin: 0;
+    padding: 0;
+}
+.header__navigation-item {
+	display: inline-block;
+	list-style-type: none;
+}
+.header__navigation-item-name {
+	display: block;
+	font-family: OpenSans, sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	margin-bottom: 40px;
+	margin-right: 35px;
+	color: #fff;
+
+	}
+.header__navigation-item-name:hover {
+	color: #b0c5c0;
+	}
+.header__title {
+	font-family: UbuntuBold, sans-serif;
+	font-size: 53px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.header__descriptor {
+	font-family: PTSansBold, sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-bottom: 75px;
+}
+.header__btn {
+	font-family: PTSansBold, sans-serif;
+	font-size: 15px;
+	background: #50c3af;
+	padding: 20px 45px;
+	border: none;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 20px;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+.features {
+	background: #eeeeef;
+}
+
+.support {
+	background: #eeeeef;
+}
