@@ -84,13 +84,21 @@
 	float: left;
 }
 .features__chapter-left-icon {
-	
+
 }
 .features__chapter-left-title {
 	font-family: PTSansBold, sans-serif;
 	color:  #40474e;
 	font-size: 16px;/* Приближение из-за подстановки шрифтов */
 	font-weight: 700;
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+}
+.features__chapter-left-descriptor {
+	font-family: PTSansRegular, sans-serif;
+	color:  #787b80;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
 	line-height: 24px;/* Приближение из-за подстановки шрифтов */
 	text-align: center;
 }
