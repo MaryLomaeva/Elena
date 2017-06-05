@@ -1,25 +1,29 @@
 .body {
-	background: #d6d6d7;
+	background: #f5f5f5;
 }
-
 .container {
 	width: 800px;
 	margin: 0 auto;
 }
+.container__features {
+	width: 800px;
+	margin: 0 auto;
+	background: #eeeeef;
+}
 .header {
 	background: url(../img/bg_head.png) no-repeat top center;
-	background-size: 100%;
+	background-size: auto;
 	color: #fff;
 	padding-top: 65px;
 	padding-bottom: 120px;
 	text-align: center;
 }
 .header__logo {
-	margin-bottom: 38px;
+	margin-bottom: 37px;
 	cursor: pointer;
 }
 .header__navigation {
-	margin-bottom: 5px;
+	margin-bottom: 25px;
 }
 .header__navigation-items {
 	
@@ -34,7 +38,7 @@
 .header__navigation-item-name {
 	display: block;
 	font-family: OpenSans, sans-serif;
-	font-size: 14px;
+	font-size: 13px;
 	text-decoration: none;
 	margin-bottom: 40px;
 	margin-right: 28px;
@@ -50,13 +54,15 @@
 	text-transform: uppercase;
 	text-align: center;
 	margin-bottom: 30px;
-	margin-top: 23px;
+	margin-top: 22px;
+	letter-spacing: -0.6px;
 }
 .header__descriptor {
 	font-family: PTSansBold, sans-serif;
 	font-size: 15px;
 	text-transform: uppercase;
 	margin-bottom: 79px;
+	letter-spacing: 0.2px;
 }
 .header__btn {
 	font-family: PTSansBold, sans-serif;
@@ -72,11 +78,44 @@
 
 }
 .features {
-	background: #eeeeef;
-}
 
+}
+.features__chapter-left {
+	float: left;
+}
+.features__chapter-left-icon {
+	
+}
+.features__chapter-left-title {
+	font-family: PTSansBold, sans-serif;
+	color:  #40474e;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+}
+.features__chapter-center {
+	float: left;
+
+}
+.features__chapter-center-title {
+	font-family: PTSansBold, sans-serif;
+	color:  #40474e;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+}
+.features__chapter-right-title {
+	font-family: PTSansBold, sans-serif;
+	color:  #40474e;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+}
 .support {
-	background: #eeeeef;
+
 }
 
 
