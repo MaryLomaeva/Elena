@@ -77,6 +77,7 @@
 	text-transform: uppercase;
 
 }
+<<<<<<< HEAD
 .features__chapter-left-title {
 	font-family: PTSansBold, sans-serif;
 	color:  #40474e;
@@ -84,15 +85,42 @@
 	font-weight: 700;
 	text-align: center;
 	text-transform: uppercase;
+=======
+.features {
+
+}
+.features__chapter-left {
+	float: left;
+}
+.features__chapter-left-icon {
+
+}
+.features__chapter-left-title {
+	font-family: PTSansBold, sans-serif;
+	color:  #40474e;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+>>>>>>> origin/master
 }
 .features__chapter-left-descriptor {
 	font-family: PTSansRegular, sans-serif;
 	color:  #787b80;
+<<<<<<< HEAD
 	font-size: 14px;
 	font-weight: 400;
+=======
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+>>>>>>> origin/master
 	text-align: center;
 }
+.features__chapter-center {
+	float: left;
 
+<<<<<<< HEAD
 .features__chapter-center-title {
 	font-family: PTSansBold, sans-serif;
 	color:  #40474e;
@@ -108,11 +136,21 @@
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 24px;
+=======
+}
+.features__chapter-center-title {
+	font-family: PTSansBold, sans-serif;
+	color:  #40474e;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+>>>>>>> origin/master
 	text-align: center;
 }
 .features__chapter-right-title {
 	font-family: PTSansBold, sans-serif;
 	color:  #40474e;
+<<<<<<< HEAD
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 24px;
@@ -128,6 +166,15 @@
 }
 .support {
 	
+=======
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+}
+.support {
+
+>>>>>>> origin/master
 }
 .response {
 	background: #50c3af;
