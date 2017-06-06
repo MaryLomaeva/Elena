@@ -20,6 +20,8 @@
 	margin: 0 auto;
 	background: #50c3af;
 }
+
+/* Styles for block "Header" start*/
 .header {
 	background: url(../img/bg_head.png) no-repeat top center;
 	background-size: auto;
@@ -87,6 +89,9 @@
 	text-transform: uppercase;
 
 }
+/* Styles for block "Header" end*/
+
+/* Styles for block "Features" start*/
 .features__chapter-left-title {
 	font-family: PTSansBold, sans-serif;
 	color:  #40474e;
@@ -105,9 +110,9 @@
 .features__chapter-left-title {
 	font-family: PTSansBold, sans-serif;
 	color:  #40474e;
-	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-size: 16px;
 	font-weight: 700;
-	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	line-height: 24px;
 	text-align: center;
 }
 .features__chapter-left-descriptor {
@@ -115,15 +120,14 @@
 	color:  #787b80;
 	font-size: 14px;
 	font-weight: 400;
-	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-size: 14px;
 	font-weight: 400;
-	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	line-height: 24px;
 	text-align: center;
 }
 .features__chapter-center {
 	float: left;
 }
-
 .features__chapter-center-title {
 	font-family: PTSansBold, sans-serif;
 	color:  #40474e;
@@ -143,9 +147,9 @@
 .features__chapter-center-title {
 	font-family: PTSansBold, sans-serif;
 	color:  #40474e;
-	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-size: 16px;
 	font-weight: 700;
-	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	line-height: 24px;
 	text-align: center;
 }
 .features__chapter-right-title {
@@ -165,6 +169,7 @@
 	line-height: 24px;
 	text-align: center;
 }
+/* Styles for block "Features" end*/
 
 /* Styles for block "Works" start*/
 /* Left part*/
