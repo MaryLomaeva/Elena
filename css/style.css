@@ -10,6 +10,11 @@
 	margin: 0 auto;
 	background: #eeeeef;
 }
+.container-support {
+	width: 800px;
+	margin: 0 auto;
+	background: #eeeeef;
+}
 .header {
 	background: url(../img/bg_head.png) no-repeat top center;
 	background-size: auto;
@@ -213,7 +218,6 @@
 	font-family: PTSansRegular;
 	color:  #f5f5f5;
 	font-size: 14px;
-	text-align: right;
 	border: none;
 	display: inline-block;
 	cursor: pointer;
@@ -222,17 +226,45 @@
 }
 /* Styles for block "Works" end*/ 
 
+/* Styles for block "Support" start*/
+.container-support {
 
+}
+.support__icon {
 
-.support {
-		font-size: 16px;/* Приближение из-за подстановки шрифтов */
+}
+.support__title {
+	font-family: PTSansRegular;
+	color:  #384048;
+	font-size: 18px;
 	font-weight: 700;
-	line-height: 24px;/* Приближение из-за подстановки шрифтов */
-	text-align: center;
+	line-height: 24px;
 }
-.support {
+.support__line {
 
 }
+.support__descriptor {
+
+}
+.support__btn {
+
+	background-color:  #d2d5da;
+	font-family: PTSansRegular;
+	color:  #f5f5f5;
+	font-size: 14px;
+	border: none;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 20px;
+}
+/* Styles for block "Support" end*/
+
+/* Styles for block "Full" start*/
+
+/* Styles for block "Full" end*/
+
+
+
 .response {
 	background: #50c3af;
 }
