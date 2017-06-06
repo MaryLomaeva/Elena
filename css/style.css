@@ -260,7 +260,82 @@
 /* Styles for block "Support" end*/
 
 /* Styles for block "Full" start*/
+.full {
 
+}
+/* Left part*/
+.full__left {
+	float: left;
+}
+.full__left-pic {
+	width: 181px;
+	height: 138px;
+}
+.full__left-title {
+	font-family: PTSansBold;
+	color:  #40474e;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.full__left-descriptor {
+	font-family: PTSansRegular;
+	color:  #787b80;
+	font-size: 14px;
+
+}
+.full__left-name {
+
+}
+/* Center part*/
+.full__center {
+float: left;
+}
+.full__center-pic {
+	width: 181px;
+	height: 138px;
+}
+.full__center-title {
+	font-family: PTSansBold;
+	color:  #40474e;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.full__center-descriptor {
+	font-family: PTSansRegular;
+	color:  #787b80;
+	font-size: 14px;
+}
+.full__center-name {
+
+}
+/* Right part*/
+.full__right {
+	float: left;
+}
+.full__right-pic {
+	width: 181px;
+	height: 138px;
+}
+.full__right-title {
+	font-family: PTSansBold;
+	color:  #40474e;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.full__right-descriptor {
+	font-family: PTSansRegular;
+	color:  #787b80;
+	font-size: 14px;
+}
+.full__right-name {
+
+}
 /* Styles for block "Full" end*/
 
 
