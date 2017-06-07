@@ -3,10 +3,7 @@
 	width: 800px;
 	margin: 0 auto;
 }
-.features {
-	margin: 0 1.5% 24px 1.5%;
-	clear: both;
-}
+
 .container-features:before {
     content:"";
     display: table;
