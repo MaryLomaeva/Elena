@@ -140,6 +140,8 @@
 }
 .works__chapter-left {
 	float: left;
+	width: 264px;
+	height: 167px;
 }
 .works__chapter-left-image {
 
@@ -170,6 +172,8 @@
 /* Right part */
 .works__chapter-right {
 	margin: 0 auto;
+	width: 264px;
+	height: 167px;
 }
 .works__chapter-right-image {
 
