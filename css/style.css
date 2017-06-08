@@ -11,4 +11,61 @@
 	background-size: auto;
 	color: #fff;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.header__logo {
+	margin-top: auto;
+}
+.header__logo-image {
+	margin-top: 65px;
+}
+.header__navigation {
+
+}
+.header__items {
+	list-style-type: none;
+	margin-top: auto;
+}
+.header__name {
+	
+}
+.header__title {
+	/* Position */
+	margin-top: auto;
+	margin-bottom: 43px;
+	text-align: center;
+	/* Decaration */
+	font-family: UbuntuBold, sans-serif;
+	color: #f5f5f5;
+	font-size: 53px;
+	text-transform: uppercase;
+}
+.header__descriptor {
+	/* Position */
+	margin-top: auto;
+	margin-bottom: 83px;
+	text-align: center;
+	/* Decaration */
+	font-family: PTSansBold, sans-serif;
+	color: #f5f5f5;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.header__btn {
+	/* Position */
+	margin-top: auto;
+	margin-bottom: 120px;
+	align-self: center;
+	/* Decaration */
+	background-color:  #50c3af;
+	width: 235px;
+	height: 48px;
+	border: none;
+	border-radius: 50px;
+	color: #f5f5f5;
+	font-family: PTSansBold, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	cursor: pointer;
 }
