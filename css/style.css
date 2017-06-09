@@ -16,8 +16,8 @@
 	background-size: auto;
 	color: #fff;
 	text-align: center;
-	display: flex;
 	flex-direction: column;
+	justify-content: center;
 }
 .header__logo {
 	margin-top: auto;
@@ -31,9 +31,15 @@
 .header__items {
 	list-style-type: none;
 	margin-top: auto;
+
+}
+.header__item {
+
 }
 .header__name {
-	
+	/* Decaration */
+	text-decoration: none;
+
 }
 .header__title {
 	/* Position */
@@ -61,7 +67,6 @@
 	/* Position */
 	margin-top: auto;
 	margin-bottom: 120px;
-	align-self: center;
 	/* Decaration */
 	background-color:  #50c3af;
 	width: 235px;
@@ -74,8 +79,39 @@
 	text-align: center;
 	cursor: pointer;
 }
+/* ---features---*/
+.features {
+	/* Position */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 55px;
+}
+.features__title {
+	/* Decaration */
+	font-family: PTSansBold, sans-serif;
+	color: #40474e;
+	font-size: 15px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.features__line {
+	border: none;
+	color: #E6E3F0;
+	background-color: #E6E3F0;
+	width: 135px;
+	height: 2px;
+}
+.features__descriptor {
+	/* Decaration */
+	font-family: PTSansRegular, sans-serif;
+	color: #787b80;
+	font-size: 13px;
+	text-align: center;
 
 
+}
 
 
 
