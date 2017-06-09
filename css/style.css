@@ -10,6 +10,16 @@
 	width: 800px;
 	margin: 0 auto;
 }
+.container-blue {
+	width: 800px;
+	margin: 0 auto;
+	background-color: #50c3af;
+}
+.container-grey {
+	width: 800px;
+	margin: 0 auto;
+	background-color: rgba(234, 234, 235, 0.6);
+}
 
 .header {
 	background: url(../img/bg_head.png) no-repeat top center;
@@ -24,28 +34,36 @@
 }
 .header__logo-image {
 	margin-top: 65px;
+	margin-bottom: 47px;
 }
 .header__navigation {
-
+	margin-bottom: 79px;
 }
 .header__items {
 	list-style-type: none;
 	margin-top: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 
 }
 .header__item {
-
+	margin-right: 28px;
 }
 .header__name {
 	/* Decaration */
 	text-decoration: none;
-
+	font-family: OpenSans, sans-serif;
+	text-transform: uppercase;
+	color:#f5f5f5;
+	font-size: 14px;
 }
 .header__title {
 	/* Position */
 	margin-top: auto;
-	margin-bottom: 43px;
 	text-align: center;
+	margin-bottom: 43px;
 	/* Decaration */
 	font-family: UbuntuBold, sans-serif;
 	color: #f5f5f5;
@@ -55,8 +73,8 @@
 .header__descriptor {
 	/* Position */
 	margin-top: auto;
-	margin-bottom: 83px;
 	text-align: center;
+	margin-bottom: 83px;
 	/* Decaration */
 	font-family: PTSansBold, sans-serif;
 	color: #f5f5f5;
@@ -86,6 +104,10 @@
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
+
+	background-color: rgba(234, 234, 235, 0.6);
+}
+.features__icon {
 	margin-top: 55px;
 }
 .features__title {
@@ -109,11 +131,283 @@
 	color: #787b80;
 	font-size: 13px;
 	text-align: center;
-
-
+	margin-bottom: 65px;
 }
 
+/* ---works---*/
+.works {
+	/* Position */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 65px;
+}
+.works__title {
+	/* Decaration */
+	font-family: PTSansBold, sans-serif;
+	color: #40474e;
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.works__line {
+	/* Decaration */
+	border: none;
+	color: #E6E3F0;
+	background-color: #E6E3F0;
+	width: 290px;
+	height: 2px;
+}
+.works__descriptor {
+	/* Decaration */
+	font-family: PTSansRegular, sans-serif;
+	color: #787b80;
+	font-size: 13px;
+	text-align: center;
+	margin-bottom: 65px;
+}
+.works__btn {
+		/* Position */
+	margin-bottom: 64px;
+	/* Decaration */
+	background-color: #50c3af;
+	width: 98px;
+	height: 35px;
+	border: none;
+	border-radius: 50px;
+	color: #f5f5f5;
+	font-size: 14px;
+	font-family: PTSansRegular, sans-serif;
+	text-align: center;
+	cursor: pointer;
+}
 
+/* ---support---*/
+.support {
+	/* Position */
+	margin-top: 65px;
+}
+.support__icon {
+}
+	
+.support__title {
+	/* Decaration */
+	font-family: PTSansBold, sans-serif;
+	color: #40474e;
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.support__line {
+	/* Decaration */
+	border: none;
+	color: #E6E3F0;
+	background-color:  rgba(41, 49, 57, 0.06);
+	width: 531px;
+	height: 2px;
+}
+.support__descriptor {
+	font-family: PTSansRegular, sans-serif;
+	color: #787b80;
+	font-size: 13px;
+	text-align: center;
+}
+.support__btn {
+	/* Position */
+	margin-bottom: 64px;
+	/* Decaration */
+	background-color:  #d2d5da;
+	width: 98px;
+	height: 35px;
+	border: none;
+	border-radius: 50px;
+	color: #f5f5f5;
+	font-size: 14px;
+	font-family: PTSansRegular, sans-serif;
+	text-align: center;
+	cursor: pointer;
+	margin-bottom: 64px;
+}
+
+/* ---full---*/
+.full {
+	/* Position */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 65px;
+}
+.full__chapter {
+
+}
+.full__pic {
+	width: 181px;
+	height: 138px;
+}
+.full__title {
+	/* Decaration */
+	font-family: PTSansBold, sans-serif;
+	color: #40474e;
+	font-size: 18px;
+	text-align: left;
+	text-transform: uppercase;
+}
+.full__line {
+	border: none;
+	color: #E6E3F0;
+	background-color:  rgba(41, 49, 57, 0.06);
+	width: 182px;
+	height: 2px;
+}
+.full__descriptor {
+	/* Decaration */
+	font-family: PTSansRegular, sans-serif;
+	color: #787b80;
+	font-size: 13px;
+	text-align: left;
+	margin-bottom: 28px;
+}
+.full__name {
+	/* Decaration */
+	font-family: PTSansRegular, sans-serif;
+	color: #50c3af;
+	font-size: 14px;
+	text-decoration: none;
+	margin-bottom: 65px;
+}
+
+/* ---send---*/
+.container {
+
+}
+.send__chapter {
+
+}
+.send__icon {
+
+}
+.send__title {
+	font-family: PTSansBold, sans-serif;
+	color: #40474e;
+	font-size: 18px;
+	text-align: left;
+	text-transform: uppercase;
+}
+.send__line {
+	border: none;
+	color: #E6E3F0;
+	background-color:  rgba(41, 49, 57, 0.06);
+	width: 251px;
+	height: 2px;
+}
+.send__descriptor {
+	font-family: PTSansRegular, sans-serif;
+	color: #787b80;
+	font-size: 13px;
+	text-align: left;
+	margin-bottom: 28px;
+}
+.send__btn {
+	margin-bottom: 64px;
+	/* Decaration */
+	background-color: #50c3af;
+	width: 98px;
+	height: 35px;
+	border: none;
+	border-radius: 50px;
+	color: #f5f5f5;
+	font-size: 14px;
+	font-family: PTSansRegular, sans-serif;
+	text-align: center;
+	cursor: pointer;
+}
+
+/* ---theme-forest---*/
+.theme-forest {
+
+}
+.theme-forest__chapter {
+
+}
+.theme-forest__image {
+	width: 264px;
+	height: 208px
+}
+.theme-forest__title {
+	font-family: PTSansBold, sans-serif;
+	color: #40474e;
+	font-size: 18px;
+	text-align: left;
+	text-transform: uppercase;
+}
+.theme-forest__line {
+	border: none;
+	color: #E6E3F0;
+	background-color:  rgba(41, 49, 57, 0.06);
+	width: 290px;
+	height: 2px;
+}
+.theme-forest__descriptor {
+	font-family: PTSansRegular, sans-serif;
+	color: #787b80;
+	font-size: 13px;
+	text-align: left;
+	margin-bottom: 28px;
+
+}
+.theme-forest__btn {
+	margin-bottom: 64px;
+	/* Decaration */
+	background-color: #d2d5da;
+	width: 98px;
+	height: 35px;
+	border: none;
+	border-radius: 50px;
+	color: #f5f5f5;
+	font-size: 14px;
+	font-family: PTSansRegular, sans-serif;
+	text-align: center;
+	cursor: pointer;
+}
+
+/* ---response---*/
+.response {
+
+}
+.response__chapter {
+
+}
+.response__icon {
+
+}
+.response__title {
+	font-family: PTSansBold, sans-serif;
+	color: #40474e;
+	font-size: 18px;
+	text-align: left;
+	text-transform: uppercase;
+}
+.response__line {
+	border: none;
+	color: #E6E3F0;
+	background-color:  rgba(41, 49, 57, 0.06);
+	width: 251px;
+	height: 2px;
+
+}
+.response__techcrunch {
+
+}
+.response__promail {
+
+}
+.response__mashable {
+
+}
+.response__atlaspix {
+
+}
 
 
 .footer {
