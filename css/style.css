@@ -10,17 +10,6 @@
 	width: 800px;
 	margin: 0 auto;
 }
-.container-blue {
-	width: 800px;
-	margin: 0 auto;
-	background-color: #50c3af;
-}
-.container-grey {
-	width: 800px;
-	margin: 0 auto;
-	background-color: rgba(234, 234, 235, 0.6);
-}
-
 .header {
 	background: url(../img/bg_head.png) no-repeat top center;
 	background-size: auto;
