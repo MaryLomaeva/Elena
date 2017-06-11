@@ -319,7 +319,8 @@
 }
 .theme-forest__image {
 	width: 264px;
-	height: 208px
+	height: 208px;
+	margin-bottom: 62px;
 }
 .theme-forest__title {
 	font-family: PTSansBold, sans-serif;
