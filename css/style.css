@@ -86,7 +86,7 @@
 	text-align: center;
 	cursor: pointer;
 }
-/* ---features---*/
+/* ----------------------features---------------------*/
 .features {
 	display: flex;
 	flex-direction: row;
@@ -173,13 +173,11 @@
 	font-family: PTSansRegular, sans-serif;
 	text-align: center;
 	cursor: pointer;
-	margin-bottom: 77px;
 }
 
 /* ----------------------support---------------------*/
 .support {
-	/* Position */
-	margin-top: 65px;
+	background-color: rgba(234, 234, 235, 0.6);
 }
 .support__icon {
 }
@@ -223,27 +221,27 @@
 	margin-bottom: 64px;
 }
 
-/* ---full---*/
+/* ----------------------full---------------------*/
 .full {
-	/* Position */
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	margin-top: 65px;
 }
 .full__chapter {
-
+	margin-top: 55px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: flex-start;
 }
 .full__pic {
 	width: 181px;
 	height: 138px;
 }
 .full__title {
-	/* Decaration */
 	font-family: PTSansBold, sans-serif;
 	color: #40474e;
 	font-size: 18px;
-	text-align: left;
 	text-transform: uppercase;
 }
 .full__line {
@@ -254,15 +252,12 @@
 	height: 2px;
 }
 .full__descriptor {
-	/* Decaration */
 	font-family: PTSansRegular, sans-serif;
 	color: #787b80;
 	font-size: 13px;
-	text-align: left;
 	margin-bottom: 28px;
 }
 .full__name {
-	/* Decaration */
 	font-family: PTSansRegular, sans-serif;
 	color: #50c3af;
 	font-size: 14px;
@@ -270,15 +265,18 @@
 	margin-bottom: 65px;
 }
 
-/* ---send---*/
-.container {
-
+/* ----------------------send---------------------*/
+.send {
+	background-color: rgba(234, 234, 235, 0.6);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 .send__chapter {
 
 }
 .send__icon {
-
+	padding-top: 65px;
 }
 .send__title {
 	font-family: PTSansBold, sans-serif;
@@ -303,7 +301,6 @@
 }
 .send__btn {
 	margin-bottom: 64px;
-	/* Decaration */
 	background-color: #50c3af;
 	width: 98px;
 	height: 35px;
@@ -316,7 +313,7 @@
 	cursor: pointer;
 }
 
-/* ---theme-forest---*/
+/* ----------------------theme-forest---------------------*/
 .theme-forest {
 
 }
