@@ -35,13 +35,11 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-
 }
 .header__item {
 	margin-right: 28px;
 }
 .header__name {
-	/* Decaration */
 	text-decoration: none;
 	font-family: OpenSans, sans-serif;
 	text-transform: uppercase;
@@ -49,32 +47,26 @@
 	font-size: 14px;
 }
 .header__title {
-	/* Position */
 	margin-top: auto;
 	text-align: center;
 	margin-bottom: 43px;
-	/* Decaration */
 	font-family: UbuntuBold, sans-serif;
 	color: #f5f5f5;
 	font-size: 53px;
 	text-transform: uppercase;
 }
 .header__descriptor {
-	/* Position */
 	margin-top: auto;
 	text-align: center;
 	margin-bottom: 83px;
-	/* Decaration */
 	font-family: PTSansBold, sans-serif;
 	color: #f5f5f5;
 	font-size: 15px;
 	text-transform: uppercase;
 }
 .header__btn {
-	/* Position */
 	margin-top: auto;
 	margin-bottom: 120px;
-	/* Decaration */
 	background-color:  #50c3af;
 	width: 235px;
 	height: 48px;
@@ -178,12 +170,17 @@
 /* ----------------------support---------------------*/
 .support {
 	background-color: rgba(234, 234, 235, 0.6);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
 }
 .support__icon {
-}
-	
+	padding-top: 63px;
+	display: flex;
+    flex-direction: column;
+ }
 .support__title {
-	/* Decaration */
 	font-family: PTSansBold, sans-serif;
 	color: #40474e;
 	font-size: 18px;
@@ -191,7 +188,6 @@
 	text-transform: uppercase;
 }
 .support__line {
-	/* Decaration */
 	border: none;
 	color: #E6E3F0;
 	background-color:  rgba(41, 49, 57, 0.06);
@@ -203,11 +199,10 @@
 	color: #787b80;
 	font-size: 13px;
 	text-align: center;
+	margin-bottom: 38px;
 }
 .support__btn {
-	/* Position */
 	margin-bottom: 64px;
-	/* Decaration */
 	background-color:  #d2d5da;
 	width: 98px;
 	height: 35px;
@@ -372,7 +367,6 @@
 }
 .response__chapter {
 	padding-top: 53px;
-	
 }
 .response__icon {
 
@@ -393,7 +387,6 @@
 .response__techcrunch {
 	margin-right: 60px;
 	margin-bottom: 60px;
-
 }
 .response__promail {
 	margin-right: 60px;
@@ -413,6 +406,4 @@
 	font-family: PTSansRegular, sans-serif;
 	font-size: 14px;
 	color: #787b80;
-
-
 }
