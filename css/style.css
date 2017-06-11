@@ -315,10 +315,12 @@
 
 /* ----------------------theme-forest---------------------*/
 .theme-forest {
-
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 .theme-forest__chapter {
-
+	padding-top: 61px;
 }
 .theme-forest__image {
 	width: 264px;
