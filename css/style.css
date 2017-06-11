@@ -96,21 +96,30 @@
 
 	background-color: rgba(234, 234, 235, 0.6);
 }
+.features__chapter {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
 .features__icon {
 	margin-top: 55px;
+
 }
 .features__title {
 	/* Decaration */
 	font-family: PTSansBold, sans-serif;
 	color: #40474e;
 	font-size: 15px;
-	text-align: center;
+
 	text-transform: uppercase;
 }
 .features__line {
 	border: none;
 	color: #E6E3F0;
 	background-color: #E6E3F0;
+
 	width: 135px;
 	height: 2px;
 }
@@ -119,8 +128,10 @@
 	font-family: PTSansRegular, sans-serif;
 	color: #787b80;
 	font-size: 13px;
-	text-align: center;
+	padding-top: 20px;
 	margin-bottom: 65px;
+	text-align: center;
+
 }
 
 /* ---works---*/
@@ -401,4 +412,6 @@
 
 .footer {
 
+
 }
+
