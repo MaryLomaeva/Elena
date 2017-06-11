@@ -402,9 +402,15 @@
 }
 .footer {
 	padding-top: 24px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	margin-bottom: 20px;
 }
 .copy {
 	font-family: PTSansRegular, sans-serif;
 	font-size: 14px;
 	color: #787b80;
+	width: 93%;
 }
