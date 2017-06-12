@@ -270,10 +270,12 @@
 	justify-content: space-around;
 }
 .send__chapter {
-
-}
-.send__icon {
 	padding-top: 65px;
+	margin-bottom: 65px;
+	flex-direction: column;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 }
 .send__title {
 	font-family: PTSansBold, sans-serif;
@@ -294,10 +296,9 @@
 	color: #787b80;
 	font-size: 13px;
 	text-align: left;
-	margin-bottom: 28px;
+	padding: 25px 0 25px 0;
 }
 .send__btn {
-	margin-bottom: 64px;
 	background-color: #50c3af;
 	width: 98px;
 	height: 35px;
@@ -321,8 +322,8 @@
 	margin-bottom: 62px;
 }
 .theme-forest__image {
-	width: 264px;
-	height: 208px;
+	width: 284px;
+	height: 218px;
 }
 .theme-forest__title {
 	font-family: PTSansBold, sans-serif;
