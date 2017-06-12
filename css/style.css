@@ -386,15 +386,19 @@
 }
 .response__techcrunch {
 	margin: 0 50px 50px 0;
+	cursor: pointer;
 }
 .response__promail {
 	margin: 0 50px 50px 0;
+	cursor: pointer;
 }
 .response__mashable {
 	margin: 0 50px 50px 0;
+	cursor: pointer;
 }
 .response__atlaspix {
 	margin-bottom: 50px;
+	cursor: pointer;
 }
 /* ----------------------footer---------------------*/
 .footer {
@@ -412,4 +416,16 @@
 }
 .social {
 	margin-left: auto;
+}
+.social__icons-google {
+	margin-right: 3px;
+	cursor: pointer;
+}
+.social__icons-facebook {
+	margin-right: 3px;
+	cursor: pointer;
+}
+.social__icons-twitter {
+	margin-right: 3px;
+	cursor: pointer;
 }
