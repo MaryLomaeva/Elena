@@ -179,6 +179,7 @@
 	padding-top: 63px;
 	display: flex;
     flex-direction: column;
+	
  }
 .support__title {
 	font-family: PTSansBold, sans-serif;
@@ -186,6 +187,7 @@
 	font-size: 18px;
 	text-align: center;
 	text-transform: uppercase;
+	width: 90%;
 }
 .support__line {
 	border: none;
@@ -405,12 +407,14 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	align-content: flex-start;
 	margin-bottom: 20px;
 }
 .copy {
 	font-family: PTSansRegular, sans-serif;
 	font-size: 14px;
 	color: #787b80;
-	width: 93%;
+	margin-right: auto;
+}
+.social {
+	margin-left: auto;
 }
