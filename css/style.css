@@ -318,11 +318,11 @@
 }
 .theme-forest__chapter {
 	padding-top: 61px;
+	margin-bottom: 62px;
 }
 .theme-forest__image {
 	width: 264px;
 	height: 208px;
-	margin-bottom: 62px;
 }
 .theme-forest__title {
 	font-family: PTSansBold, sans-serif;
@@ -343,10 +343,9 @@
 	color: #787b80;
 	font-size: 13px;
 	text-align: left;
-	margin-bottom: 28px;
+	padding-bottom: 28px;
 }
 .theme-forest__btn {
-	margin-bottom: 64px;
 	background-color: #d2d5da;
 	width: 98px;
 	height: 35px;
