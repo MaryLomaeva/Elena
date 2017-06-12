@@ -362,17 +362,14 @@
 /* ----------------------response---------------------*/
 .response {
 	background-color: #50c3af;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-    align-items: flex-start;
-
 }
 .response__chapter {
-	padding-top: 53px;
-}
-.response__icon {
-
+	padding-top: 35px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 }
 .response__title {
 	font-family: PTSansBold, sans-serif;
@@ -388,19 +385,16 @@
 	height: 2px;
 }
 .response__techcrunch {
-	margin-right: 60px;
-	margin-bottom: 60px;
+	margin: 0 50px 50px 0;
 }
 .response__promail {
-	margin-right: 60px;
-	margin-bottom: 60px;
+	margin: 0 50px 50px 0;
 }
 .response__mashable {
-	margin-right: 60px;
-	margin-bottom: 60px;
+	margin: 0 50px 50px 0;
 }
 .response__atlaspix {
-	margin-bottom: 60px;
+	margin-bottom: 50px;
 }
 /* ----------------------footer---------------------*/
 .footer {
