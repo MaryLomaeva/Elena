@@ -226,6 +226,7 @@
 }
 .full__chapter {
 	margin-top: 55px;
+	margin-bottom: 65px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -252,14 +253,13 @@
 	font-family: PTSansRegular, sans-serif;
 	color: #787b80;
 	font-size: 13px;
-	margin-bottom: 28px;
+	padding: 15px 0 25px 0;
 }
 .full__name {
 	font-family: PTSansRegular, sans-serif;
 	color: #50c3af;
 	font-size: 14px;
 	text-decoration: none;
-	margin-bottom: 65px;
 }
 
 /* ----------------------send---------------------*/
