@@ -359,7 +359,7 @@
 	cursor: pointer;
 }
 
-/* ----------------------theme-forest---------------------*/
+/* ----------------------response---------------------*/
 .response {
 	background-color: #50c3af;
 	display: flex;
@@ -402,6 +402,7 @@
 .response__atlaspix {
 	margin-bottom: 60px;
 }
+/* ----------------------footer---------------------*/
 .footer {
 	padding-top: 24px;
 	display: flex;
